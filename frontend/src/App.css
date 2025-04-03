@@ -1,0 +1,24 @@
+/* filepath: c:\Users\migue\OneDrive\Documentos\Programacion\React\Monopoly\frontend\src\App.css */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./img/background.jpg'); /* Ruta de la imagen */
+  background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.login-container, .home-container {
+  text-align: center;
+  margin-top: 50px;
+}
+

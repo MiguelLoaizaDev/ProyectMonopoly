@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 20px; /* Espaciado para pantallas pequeñas */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+}
+
+.formContainer {
+    width: 100%;
+    max-width: 400px; /* Limita el ancho máximo del formulario */
+    background: linear-gradient(#212121, #212121) padding-box,
+        linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+    border: 2px solid transparent;
+    padding: 32px 24px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    text-align: center; /* Centra el texto dentro del formulario */
+}
+
+.title {
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.formGroup label {
+    font-size: 0.9rem;
+    color: #717171;
+    font-weight: 600;
+}
+
+.input {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    padding: 12px 16px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid #414141;
+    color: white;
+    font-family: inherit;
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+}
+
+.input:focus {
+    outline: none;
+    border-color: #e81cff;
+    color: black;
+}
+
+.select {
+    width: 100%; /* Asegura que el select ocupe todo el ancho del contenedor */
+    padding: 12px 16px;
+    border-radius: 8px;
+    background-color: #212121; /* Fondo oscuro */
+    border: 1px solid #414141;
+    color: white;
+    font-family: inherit;
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+    appearance: none; /* Elimina el estilo predeterminado del navegador */
+    cursor: pointer;
+}
+
+.select:focus {
+    outline: none;
+    border-color: #e81cff;
+    background-color: #414141;
+}
+
+.select option {
+    background-color: #212121; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    font-family: inherit;
+    padding: 10px;
+}
+
+.select option:hover {
+    background-color: #414141; /* Fondo más claro al pasar el cursor */
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center; /* Centra los botones horizontalmente */
+}

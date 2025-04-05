@@ -52,21 +52,6 @@ const Register = () => {
                 </div>
 
                 <div className="flex-column">
-                    <label>Apellido(s)</label>
-                </div>
-                <div className="inputForm">
-                    <input
-                        type="text"
-                        name="lastName"
-                        className="input"
-                        placeholder="Ingresa tu apellido"
-                        value={formData.lastName}
-                        onChange={handleChange}
-                        required
-                    />
-                </div>
-
-                <div className="flex-column">
                     <label>Email</label>
                 </div>
                 <div className="inputForm">

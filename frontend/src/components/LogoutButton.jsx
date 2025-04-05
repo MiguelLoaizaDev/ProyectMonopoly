@@ -12,7 +12,6 @@ const LogoutButton = ({ onClick }) => {
                 </div>
                 <div className="text">Logout</div>
             </button>
-            <div></div>
         </div>
     );
 };
